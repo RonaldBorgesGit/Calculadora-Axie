@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 700px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc34c;
+    background-image: url(../calculadoraAxie/img/axie-fundo.jpg);
+}
+
+#cal{
+    width: 400px;
+    height: 400px;   
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-image: url("../calculadoraAxie/img/axie.webp");
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 81, 1, 0.8);
+    box-shadow: 3px 3px 5px #000;
+    font-weight: bolder;
+    color: #fff;
+}
+
+p{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #000;
+    background-color: #ff4f23;
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-weight: bolder;
+}
+
+#btns{
+    display: flex;
+    flex-direction: row;
+}
